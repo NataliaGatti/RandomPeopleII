@@ -20,7 +20,7 @@
   box-sizing: border-box;
 }
 
-.home {
+.home-wagon {
   margin: 10px 15px;
   height: 100%;
 }
@@ -35,7 +35,6 @@
 
 .card-list {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -46,7 +45,7 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   height: 500px;
-  margin: 10px 15px;
+  margin: 10px 45px;
   max-width: 275px;
 }
 

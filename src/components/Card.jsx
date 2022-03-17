@@ -8,7 +8,7 @@ const Card = ({persona}) => {
       </div>
       <div className='info-card'>
         <h2>{persona.name.first} {persona.name.last}</h2>
-        <p>Vive en {persona.location.city}, {persona.location.state}, en el país de {persona.location.coutry} y tiene {persona.dob.age} años. Su teléfono es {persona.phone} y su correo es {persona.email} </p>
+        <p>Vive en {persona.location.city}, {persona.location.state}, en el país de {persona.location.country} y tiene {persona.dob.age} años. Su teléfono es {persona.phone} y su correo es {persona.email} </p>
       </div>
     </div>
   );
